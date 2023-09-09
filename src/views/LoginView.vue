@@ -1,11 +1,14 @@
 <script setup lang="ts">
-import TheWelcome from '../components/Welcome/TheWelcome.vue'
-// import HelloWorld from '../components/HelloWorld.vue'
+import SignUp from '../components/Login/SignUp.vue'
+import SignIn from '../components/Login/SignIn.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
-    <!-- <HelloWorld msg="123" /> -->
+    <SignUp />
   </main>
 </template>
+
+<style lang="scss">
+@import './scss/LoginView.scss';
+</style>

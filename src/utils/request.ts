@@ -76,6 +76,7 @@ service.interceptors.response.use(
         message = `连接出错(${err.response.status})!`;
         break;
     }
+    console.log(message);
     // 这里错误消息可以使用全局弹框展示出来
     // 比如element plus 可以使用 ElMessage
     // ElMessage({

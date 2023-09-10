@@ -4,9 +4,9 @@ import SignIn from '../components/Login/SignIn.vue'
 </script>
 
 <template>
-  <main>
-    <SignUp />
-  </main>
+  <div class="login-body">
+    <SignIn />
+  </div>
 </template>
 
 <style lang="scss">

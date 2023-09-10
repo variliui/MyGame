@@ -4,5 +4,9 @@ onMounted(() => {})
 </script>
 
 <template>
-  <div>1223</div>
+  <div class="login-body">1223</div>
 </template>
+
+<style lang="scss">
+@import './scss/index.scss';
+</style>

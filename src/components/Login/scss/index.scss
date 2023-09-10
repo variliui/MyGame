@@ -1,14 +1,20 @@
-$height : 200px; //全局变量声明不在大花括号内
-$bgcolor : blue;
+// $height : 200px; //全局变量声明不在大花括号内
+// $bgcolor : blue;
+// $width: 100px;
 
-body {
-    .father01 {
-        //嵌套
-        width: $width ;
-        height: $height ;
-        $border : 1px solid red; //局部变量是声明在元素内的
-        border: $border ;
-        $bgcolor : purple; //全局变量和局部变量名一致时，调用局部变量进行覆盖
-        background-color: $bgcolor ;
-    }
+// body {
+//     .father01 {
+//         //嵌套
+//         width: $width ;
+//         height: $height ;
+//         $border : 1px solid red; //局部变量是声明在元素内的
+//         $bgcolor : purple; //全局变量和局部变量名一致时，调用局部变量进行覆盖
+//         background-color: $bgcolor ;
+//     }
+// }
+
+.login-body {
+    display: flex;
+    width: 100%;
+    height: 100%;
 }

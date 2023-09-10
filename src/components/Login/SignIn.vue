@@ -5,7 +5,16 @@ onMounted(() => {})
 
 <template>
   <div class="login-body">
-    <el-button>1232</el-button>
+    <div class="sign-in">
+      <div class="form">
+        <h1>Sign In</h1>
+        <h3>EMAIL ADDRESS</h3>
+        <input />
+        <h3>PASSWORD</h3>
+        <input />
+      </div>
+      <div class="picture"></div>
+    </div>
   </div>
 </template>
 
